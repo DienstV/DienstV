@@ -1401,6 +1401,10 @@ button {
 				border-bottom: 0;
 
 				background-color: #1b1f22;
+
+				transition:
+					background-color 0.2s ease,
+					color 0.2s ease;
 			}
 
 
