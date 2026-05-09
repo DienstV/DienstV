@@ -1331,13 +1331,13 @@ button {
 		margin-bottom: 0;
 		list-style: none;
 		padding-left: 0;
-		border: solid 5px #ffffff; /*orig 1px, use2?*/
+		border: solid 1px #ffffff; /*orig 1px, use2?*/
 		border-radius: 4px;
 	}
 
 		#header nav ul li {
 			padding-left: 0;
-			border-left: solid 2px #ffffff;
+			border-left: solid 1px #ffffff;
 			/*border-right: solid 2px #ffffff;*/
 		}
 
