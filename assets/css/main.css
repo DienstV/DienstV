@@ -908,7 +908,7 @@ ul.icons {
 		}
 
 			ul.icons li a:hover {
-				background-color: rgba(255, 255, 255, 0.075);
+				background-color: rgba(255, 255, 255, 1.0);/*,0.075*/
 			}
 
 			ul.icons li a:active {
