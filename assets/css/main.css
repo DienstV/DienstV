@@ -179,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 600;
 	line-height: 1.5;
 	/*margin: 0 0 1rem 0;*/
-	/*text-transform: uppercase;*/
+	text-transform: uppercase;
 	letter-spacing: 0.2rem;
 }
 
@@ -204,7 +204,7 @@ h1, h2, h3, h4, h5, h6 {
 		width: -webkit-max-content;
 		width: -ms-max-content;
 		width: max-content;
-		padding-bottom: 0.5rem;
+		padding-bottom: 0.0rem;
 		margin: 0 0 0 0;
 	}
 
