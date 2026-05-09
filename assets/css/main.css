@@ -24,7 +24,7 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: top;}/*baseline*/
+	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -54,6 +54,7 @@ table {
 
 body {
 	-webkit-text-size-adjust: none;
+	overflow-y: auto; /*!!!NEW!!!*/
 }
 
 mark {
@@ -1218,9 +1219,10 @@ button {
 	-moz-justify-content: space-between;
 	-webkit-justify-content: space-between;
 	-ms-justify-content: space-between;
-	justify-content: space-between;
+	justify-content: flex-start;/*space-between!!!*/
 	position: relative;
-	min-height: 100vh;
+	/*min-height: 100vh;!!!*/
+	min-height: auto;
 	width: 100%;
 	padding: 2rem 2rem; /*2rem 2rem !!!*/
 	z-index: 3;
@@ -1288,7 +1290,8 @@ button {
 		-ms-transition: opacity 0.325s ease-in-out;
 		transition: opacity 0.325s ease-in-out;
 		position: relative;
-		margin-top: 0.5rem;/*3.5rem!!!*/
+		margin-top: 3.5rem;
+		width: 100%;/*!!!NEW!!!*/
 	}
 
 		#header > *:before {
@@ -1340,8 +1343,10 @@ button {
 			-ms-transition-delay: 0.25s;
 			transition-delay: 0.25s;
 			padding: 3rem 2rem;
-			max-height: 40rem;
-			overflow: hidden;
+			/*max-height: 40rem;
+			overflow: hidden;*/
+			max-height: none;
+			overflow: visible;
 		}
 
 			#header .content .inner > :last-child {
