@@ -731,6 +731,9 @@ input[type="radio"] + label:before {
 			margin: 2rem 0;
 		}
 
+		.profile-photo {
+		width: min(260px, 85vw);
+
 	}
 
 	@media screen and (max-width: 480px) {
@@ -738,6 +741,9 @@ input[type="radio"] + label:before {
 		.image.main {
 			margin: 1.5rem 0;
 		}
+
+		.profile-photo {
+		width: min(260px, 85vw);
 
 	}
 
