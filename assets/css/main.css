@@ -711,6 +711,19 @@ input[type="radio"] + label:before {
 			width: 100%;
 		}
 
+	.profile-photo {
+	width: min(400px, 100%);
+	aspect-ratio: 1 / 1;
+	object-fit: cover;
+
+	border-radius: 50%;
+	display: block;
+
+	margin: 2rem auto;
+
+	border: solid 2px #ffffff;
+	}
+
 	@media screen and (max-width: 736px) {
 
 		.image.main {
