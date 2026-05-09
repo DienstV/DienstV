@@ -181,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0 0 1rem 0;
 	text-transform: uppercase;
 	letter-spacing: 0.2rem;
-
+	
 	white-space: normal; /*c-s-f*/
 	overflow-wrap: break-word;/*c-s-f*/
 }
@@ -203,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
 
 	h3.major, h4.major, h5.major, h6.major {
 		border-bottom: solid 1px #ffffff;
-
+		
 		width: 100%;
 		max-width: 100%;
 
@@ -711,28 +711,11 @@ input[type="radio"] + label:before {
 			width: 100%;
 		}
 
-
-	.profile-photo {
-	width: min(400px, 100%);
-	aspect-ratio: 1 / 1;
-	object-fit: cover;
-
-	/*border-radius: 50%;*/
-	display: block;
-
-	margin: 2rem auto;
-
-	border: solid 2px #ffffff;
-	}
-
 	@media screen and (max-width: 736px) {
 
 		.image.main {
 			margin: 2rem 0;
 		}
-
-		.profile-photo {
-		width: min(260px, 85vw);
 
 	}
 
@@ -741,9 +724,6 @@ input[type="radio"] + label:before {
 		.image.main {
 			margin: 1.5rem 0;
 		}
-
-		.profile-photo {
-		width: min(260px, 85vw);
 
 	}
 
@@ -1227,9 +1207,9 @@ button {
 	-ms-justify-content: space-between;
 	justify-content: space-between;
 	position: relative;
-	min-height: 100vh;/*100*/
+	min-height: 100vh;
 	width: 100%;
-	padding: 2rem 2rem;/*4rem 2rem*/
+	padding: 4rem 2rem;
 	z-index: 3;
 }
 
