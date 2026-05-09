@@ -1375,41 +1375,31 @@ button {
 	padding-left: 0;
 	margin-bottom: 0;
 
-	border: solid 2px #ffffff;
 	border-radius: 4px;
 	overflow: hidden;
-	}
+}
 
 
 		#header nav ul li {
 			padding-left: 0;
-			border-left: solid 2px #ffffff;
-			border-top: solid 2px #ffffff;
 		}
-
-			#header nav ul li:first-child {
-				border-left: 0;
-			}
-
-			#header nav ul li:nth-child(-n + 2) {
-				border-top: 0;
-			}
-
-			#header nav ul li:nth-child(odd) {
-				border-left: 0;
-			}
 
 			#header nav ul li a {
 				display: block;
 
-				height: 2.75rem;
+				height: 100%;
+				min-height: 2.75rem;
 				line-height: 2.75rem;
 
 				padding: 0 1rem;
 
 				text-align: center;
-				border-bottom: 0;
-			}
+				text-decoration: none;
+
+				border: solid 2px #ffffff;
+
+				margin: -1px;
+		}
 
 
 				#header nav ul li a:hover {
