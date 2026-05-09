@@ -181,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0 0 1rem 0;
 	text-transform: uppercase;
 	letter-spacing: 0.2rem;
-	
+
 	white-space: normal; /*c-s-f*/
 	overflow-wrap: break-word;/*c-s-f*/
 }
@@ -203,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
 
 	h3.major, h4.major, h5.major, h6.major {
 		border-bottom: solid 1px #ffffff;
-		
+
 		width: 100%;
 		max-width: 100%;
 
@@ -1703,4 +1703,3 @@ button {
 	body.is-preload #footer {
 		opacity: 0;
 	}
-
