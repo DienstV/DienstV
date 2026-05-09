@@ -1328,6 +1328,7 @@ button {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		flex-wrap: nowrap; /*added*/
 		margin-bottom: 0;
 		list-style: none;
 		padding-left: 0;
@@ -1337,7 +1338,7 @@ button {
 
 		#header nav ul li {
 			padding-left: 0;
-			border-left: solid 1px #ffffff;
+			border-left: solid 2px #ffffff;
 			/*border-right: solid 2px #ffffff;*/
 		}
 
