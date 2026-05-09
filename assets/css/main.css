@@ -1372,12 +1372,16 @@ button {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		flex-wrap: nowrap; /*added*/
+		flex-wrap: wrap; /*added*/
+		justify-center: center;
 		margin-bottom: 0;
 		list-style: none;
 		padding-left: 0;
 		border: solid 2px #ffffff; /*orig 1px, use2?*/
 		border-radius: 4px;
+
+		flex: 1 1 auto; /*added*/
+		text-align: center; /*added*/
 	}
 
 		#header nav ul li {
