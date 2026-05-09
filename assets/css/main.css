@@ -1368,20 +1368,16 @@ button {
 
 
 	#header nav ul {
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		flex-wrap: wrap; /*added*/
-		justify-center: center;
-		
-		list-style: none;
-		padding-left: 0;
-		margin-bottom: 0;
-		
-		border: solid 2px #ffffff; /*orig 1px, use2?*/
-		border-radius: 4px;
-		overflow: hidden; /*added*/
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 0;
+
+	border: solid 2px #ffffff;
+	border-radius: 4px;
+	overflow: hidden;
 	}
 
 
@@ -1389,22 +1385,30 @@ button {
 			padding-left: 0;
 			border-left: solid 2px #ffffff;
 			border-top: solid 2px #ffffff;
-			margin-top: -2px;
 		}
 
 			#header nav ul li:first-child {
 				border-left: 0;
 			}
 
+			#header nav ul li:nth-child(-n + 2) {
+				border-top: 0;
+			}
+
+			#header nav ul li:nth-child(odd) {
+				border-left: 0;
+			}
+
 			#header nav ul li a {
 				display: block;
-				padding: 0 1.5rem;
-				min-width: 7rem;
+
 				height: 2.75rem;
 				line-height: 2.75rem;
 
-				border-bottom: 0;
+				padding: 0 1rem;
+
 				text-align: center;
+				border-bottom: 0;
 			}
 
 
