@@ -1222,7 +1222,7 @@ button {
 	position: relative;
 	min-height: 100vh;
 	width: 100%;
-	padding: 2rem 4rem; /*2rem 2rem !!!*/
+	padding: 2rem 2rem; /*2rem 2rem !!!*/
 	z-index: 3;
 }
 
@@ -1288,7 +1288,7 @@ button {
 		-ms-transition: opacity 0.325s ease-in-out;
 		transition: opacity 0.325s ease-in-out;
 		position: relative;
-		margin-top: 3.5rem;
+		margin-top: 0.5rem;/*3.5rem!!!*/
 	}
 
 		#header > *:before {
