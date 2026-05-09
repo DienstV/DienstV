@@ -1374,20 +1374,22 @@ button {
 		display: flex;
 		flex-wrap: wrap; /*added*/
 		justify-center: center;
-		margin-bottom: 0;
+		
 		list-style: none;
 		padding-left: 0;
+		margin-bottom: 0;
+		
 		border: solid 2px #ffffff; /*orig 1px, use2?*/
 		border-radius: 4px;
+		overflow: hidden; /*added*/
 	}
 
 
 		#header nav ul li {
-			flex: 1 1 auto; /*added*/
-			text-align: center; /*added*/
 			padding-left: 0;
 			border-left: solid 2px #ffffff;
-			/*border-right: solid 2px #ffffff;*/
+			border-top: solid 2px #ffffff;
+			margin-top: -2px;
 		}
 
 			#header nav ul li:first-child {
@@ -1396,14 +1398,13 @@ button {
 
 			#header nav ul li a {
 				display: block;
-				min-width: 7.5rem;
+				padding: 0 1.5rem;
+				min-width: 7rem;
 				height: 2.75rem;
 				line-height: 2.75rem;
-				padding: 0 10px 0 10px;
-				text-transform: uppercase;
-				letter-spacing: 0.2rem;
-				font-size: 0.8rem;
+
 				border-bottom: 0;
+				text-align: center;
 			}
 
 
