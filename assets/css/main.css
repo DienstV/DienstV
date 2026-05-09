@@ -1379,12 +1379,12 @@ button {
 		padding-left: 0;
 		border: solid 2px #ffffff; /*orig 1px, use2?*/
 		border-radius: 4px;
-
-		flex: 1 1 auto; /*added*/
-		text-align: center; /*added*/
 	}
 
+
 		#header nav ul li {
+			flex: 1 1 auto; /*added*/
+			text-align: center; /*added*/
 			padding-left: 0;
 			border-left: solid 2px #ffffff;
 			/*border-right: solid 2px #ffffff;*/
