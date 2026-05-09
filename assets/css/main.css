@@ -1207,7 +1207,7 @@ button {
 	-ms-justify-content: space-between;
 	justify-content: space-between;
 	position: relative;
-	min-height: 200vh;/*100*/
+	min-height: 100vh;/*100*/
 	width: 100%;
 	padding: 2rem 2rem;/*4rem 2rem*/
 	z-index: 3;
